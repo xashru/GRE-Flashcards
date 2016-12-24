@@ -1,6 +1,6 @@
 package com.ashru.greflashcards;
 
-import com.ashru.greflashcards.R;
+import com.ashru.greflashcards.R; 
 
 import android.app.Activity;
 import android.os.Bundle;
