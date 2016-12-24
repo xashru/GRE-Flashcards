@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#00FF00</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="blue">#0000FF</color>
+    <color name="lightblue">#2D9FCA</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="lightgreen">#93FF92</color>
+    <color name="lightyellow">#FBFF9B</color>
+    <color name="darkgray">#FF888888</color>
+    <color name="lightgray">#FFCCCCCC</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="textViewPressed">#FF35637A</color>
+    <color name="actionBarColor">#FF003D74</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ruler">#FF00637F</color>
+
+</resources>

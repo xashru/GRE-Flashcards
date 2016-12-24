@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/word"
+            style="@style/edit_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:hint="@string/hint_word"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cyan"
+            android:textSize="45sp" />
+
+        <RatingBar
+            android:id="@+id/word_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:numStars="5"
+            android:rating="5"
+            android:stepSize="0.1" />
+
+        <EditText
+            android:id="@+id/word_meaning"
+            style="@style/edit_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="@string/hint_meaning"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="italic" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/word_example"
+            style="@style/edit_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="@string/hint_example"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="italic" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/word_note"
+            style="@style/edit_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="@string/hint_note"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="italic" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/word_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/button_show_meaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/buttonstyle_golden"
+            android:onClick="onClick"
+            android:text="@string/button_show_meaning"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_know"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/buttonstyle_green"
+                android:onClick="onClick"
+                android:text="@string/button_know"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button_dunno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/buttonstyle_red"
+                android:onClick="onClick"
+                android:text="@string/button_dont_know"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/buttonstyle_blue"
+            android:onClick="onClick"
+            android:text="@string/button_edit"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/buttonstyle_green"
+                android:onClick="onClick"
+                android:text="@string/button_save"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/buttonstyle_red"
+                android:onClick="onClick"
+                android:text="@string/button_cancel"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/word_progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/lightgreen"
+            android:textSize="22sp" />
+
+        <ProgressBar
+            android:id="@+id/word_progress"
+            style="@style/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/progress_bar_green" />
+    </LinearLayout>
+
+</ScrollView>

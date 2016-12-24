@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/pref_rating"
+        android:title="Enable word rating" />
+
+    <com.ashru.greflashcards.OptionDialogPreference
+        android:dialogIcon="@android:drawable/ic_dialog_alert"
+        android:dialogMessage="Reset all progress?"
+        android:key="@string/pref_reset"
+        android:negativeButtonText="Cancel"
+        android:positiveButtonText="Reset"
+        android:title="Reset" />
+
+    <Preference
+        android:key="@string/pref_about"
+        android:title="About" >
+    </Preference>
+
+</PreferenceScreen>

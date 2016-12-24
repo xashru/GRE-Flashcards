@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myGreApp="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/action_add"
+        myGreApp:showAsAction="always"/>
+    <item
+        android:id="@+id/action_viewall"
+        android:icon="@drawable/ic_action_view_as_list"
+        android:title="@string/action_viewall"
+        myGreApp:showAsAction="never"/>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/action_search"
+        myGreApp:showAsAction="collapseActionView|always"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/action_settings"
+        myGreApp:showAsAction="never"/>
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/ic_action_help"
+        android:title="@string/action_help"
+        myGreApp:showAsAction="never"/>
+
+</menu>

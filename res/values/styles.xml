@@ -1,0 +1,42 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarStyle">@style/actionBarStyle</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/actionBarStyle</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="actionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionBarColor</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/actionBarColor</item>
+    </style>
+
+    <!-- Progress bar style -->
+    <style name="progressBarStyle" parent="@android:style/Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:minHeight">12dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+</resources>

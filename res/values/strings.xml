@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- app name -->
+    <string name="app_name">GRE Flashcards</string>
+    <string name="settings_activity_name">Settings</string>
+
+    <!-- buttons -->
+    <string name="button_show_meaning">Show meaning</string>
+    <string name="button_know">Know it</string>
+    <string name="button_dont_know">Don\'t know</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_add">Add</string>
+    <string name="button_ok">OK</string>
+    <string name="button_next">Next</string>
+    <!-- action bar -->
+    <string name="action_add">Add word</string>
+    <string name="action_viewall">View all Words</string>
+    <string name="action_search">Search word</string>
+    <string name="action_search_hint">Search word</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+
+    <!-- settings -->
+    <string name="pref_rating">word_rating_key</string>
+    <string name="pref_reset">word_reset_key</string>
+    <string name="pref_about">about_key</string>
+    <string name="about_title"><b>GRE Flashcards</b></string>
+    <string name="about_copyright">Copyright © 2014 Ashru</string>
+    <string name="about_version">Version 1.0.0</string>
+    <string name="about_thanks">"Thank you for downloading GRE Flashcards. If you have any questions or feedback, please email at"</string>
+    <string name="about_email">scintash13@gmail.com</string>
+    <string name="about_disclaimer">Disclaimer</string>
+    <string name="about_disclaimer_details">The software is provided on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTY OF ANY KIND, expressed or implied. In no event shall the author be liable for any loss or damage whatsoever resulting from the use or misuse of this software.\nWhilst every effort has been made to ensure correctness and accuracy of this calculator the author cannot be held responsible for any error resulting from its use.</string>
+    <string name="help_details">✔ The app has 1000 important GRE words with example but you can also add words of your own.\n✔ You can add  note or mnemonic to help remember the word better.\n✔ Word rating is just a gauge for relative difficulty. Higher rating means the word is relatively harder. Initially all words have highest rating. If you know a word its rating drops down and it becomes less likely to appear in flashcard later. On the other hand not knowing a word increases its rating and makes it more likely to appear.\n✔  Word rating can be disabled from settings menu.</string>
+    <!-- hints -->
+    <string name="hint_word">Word</string>
+    <string name="hint_meaning">Meaning</string>
+    <string name="hint_example">Example</string>
+    <string name="hint_note">Note</string>
+
+    <!-- texts -->
+    <string name="text_rating">Words learned</string>
+    <string name="text_">Note</string>
+
+</resources>

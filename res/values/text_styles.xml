@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="edit_text_style" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
