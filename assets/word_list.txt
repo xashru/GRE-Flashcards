@@ -33,7 +33,7 @@ aegis|protection, patronage|Negotiations were conducted under the aegis of the U
 aesthetic|concerned with or appreciative of beauty|The pictures give great aesthetic pleasure.
 affected|pretentious, phony|There were a few affected dives in this year's football world cup which none like to see.
 affable|easily approachable, friendly|He's an affable  guy, with a wide mouth and an ironic smile.
-affinity|attraction, sympathy, kinship|He has an affinity for the music of Berlioz.
+affinity|attraction, sympathy, kinship|He has an affinity for the music of Berlioz. 
 afflatus|a creative impulse, divine inspiration|The divine afflatus  descends equally on the good and the bad, the lofty and the lowly.
 agathism|the belief that things ultimately lead to good|You will need more than just agathism to succeed.
 agenda|program, things to be done|The question of nuclear weapons had been removed from the agenda
