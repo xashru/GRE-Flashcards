@@ -98,7 +98,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 				currentWord = db.getWord(currentWord.getId());
 			}
 		} catch (Exception e) {
-			Log.d("aise", "asdasd");
+			// 
 			return;
 		}
 		setView();
